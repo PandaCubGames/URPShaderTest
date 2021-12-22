@@ -85,19 +85,19 @@ namespace AnimationInstancing
         [NonSerialized]
         private List<AnimationInstancing> listAttachment;
 
-        private void Update()
-        {
-            if (Input.GetKey(KeyCode.Alpha1))
-            {
-                PlayAnimation(0);
-            }else if(Input.GetKey(KeyCode.P)){
-                this.Stop();
-            }else if(Input.GetKey(KeyCode.Alpha2)){
-                PlayAnimation(1);
-            }else if(Input.GetKey(KeyCode.Alpha3)){
-                PlayAnimation(2);
-            }
-        }
+        //private void Update()
+        //{
+        //    if (Input.GetKey(KeyCode.Alpha1))
+        //    {
+        //        PlayAnimation(0);
+        //    }else if(Input.GetKey(KeyCode.P)){
+        //        this.Pause();
+        //    }else if(Input.GetKey(KeyCode.Alpha2)){
+        //        PlayAnimation(1);
+        //    }else if(Input.GetKey(KeyCode.Alpha3)){
+        //        PlayAnimation(2);
+        //    }
+        //}
 
         void Start()
         {

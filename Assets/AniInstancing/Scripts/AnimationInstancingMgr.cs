@@ -103,7 +103,7 @@ namespace AnimationInstancing
 
         private void OnEnable()
         {
-            boundingSphere = new BoundingSphere[5000];
+            boundingSphere = new BoundingSphere[12000];
             InitializeCullingGroup();
             cameraTransform = Camera.main.transform;
             aniInstancingList = new List<AnimationInstancing>(1000);
